@@ -9,7 +9,7 @@
 <body>
 	<header>
 		<nav class="topNav">
-			<span class="name">Lucy Liang</span>	
+			<span class="name" id = "myName">Lucy Liang</span>	
 			<ul class="rightSide">
 				<li><a href="index.html#" class="navLink">Work</a></li>
 				<li><a href="Contact.html#" class="navLink">About</a></li>
@@ -44,20 +44,20 @@
 		</nav>
 	</header>
 	<div class = "work">
-		<div class="workExample">
+		<div class="workExample" id = "arenaHelp">
 			<a href="#">
 				<img src="img1.png"/>
 			</a>
-				<div class = "inner">
+				<div class = "inner" id = "helplabel">
 					<span>Arena Help</span>
 				</div>
 		</div>
-		<div class="workExample">
+		<div class="workExample" id = "arenaScribe">
 			<a href="#">	
 				<img src="img2.png"/>
 			</a>
 
-			<div class = "inner">
+			<div class = "inner" id = "scribelabel">
 				<span>Arena Scribe</span>
 			</div>
 		</div>
@@ -98,5 +98,13 @@
 			</div>
 		</div>
 	</div>
+
+	 <script src="midterm.js"></script>
+    <script>
+      (function() {
+        app.initialize();
+      })();
+
+    </script>
 </body>
 </html>
